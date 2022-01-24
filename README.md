@@ -23,11 +23,11 @@ public abstract class AboutMe {
   }
 
   public void addTopLanguages(String... topLanguages) {
-    this.topLanguages.addAll(topLanguages);
+    topLanguages.addAll(topLanguages);
   }
 
   public void addLanguage(String... language) {
-    this.languages.addAll(language);
+    languages.addAll(language);
   }
 }
 ```
